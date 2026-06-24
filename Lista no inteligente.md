@@ -6,10 +6,9 @@
 
 (osu!) Medals: [Greasyfork](https://greasyfork.org/en/scripts/577191-medals)
 <details>
-    <summary>
-    Code Archive (1.0.4)
-    </summary>
-```
+<summary>Code Archive (1.0.4)</summary>
+
+```js
 // ==UserScript==
 // @name         Medals
 // @namespace    http://tampermonkey.net/

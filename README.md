@@ -1,12 +1,10 @@
 # Userscripts
 
-[ViolentMonkey](https://addons.mozilla.org/en-US/firefox/addon/violentmonkey/)
+Para instalar Userscripts: [ViolentMonkey](https://addons.mozilla.org/en-US/firefox/addon/violentmonkey/)
 
 4chan X: [Greasyfork](https://greasyfork.org/es/scripts/7750-4chan-x) [Github](https://github.com/ccd0/4chan-x/)
 
-(osu!) Medals: [Greasyfork](https://greasyfork.org/en/scripts/577191-medals)
-<details>
-<summary>Code Archive (1.0.4)</summary>
+(osu!) Medals: [Greasyfork](https://greasyfork.org/en/scripts/577191-medals)<details><summary>Code Archive (1.0.4)</summary>
 
 ```js
 // ==UserScript==
@@ -190,3 +188,8 @@
 ## Activas
 
 ## Solo a veces
+
+##### Para mi para editar esto xd:
+git add .
+git commit -m "udate"
+git push

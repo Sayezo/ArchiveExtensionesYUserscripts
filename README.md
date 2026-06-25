@@ -20,6 +20,7 @@ TwitchAdSolutions:
 <summary>
 Archive (37.0.0)
 </summary>
+
 ```js
 // ==UserScript==
 // @name         TwitchAdSolutions (vaft)
@@ -1140,8 +1141,8 @@ Archive (37.0.0)
         postTwitchWorkerMessage('AllSegmentsAreAdSegments');
     };
 })();
-
 ```
+
 </details>
 
 Instagram Auto Unmute:  
@@ -1150,6 +1151,7 @@ Instagram Auto Unmute:
 <summary>
 Archive (1.3.0)
 </summary>
+
 ```js
 // ==UserScript==
 // @name        Auto unmute Instagram stories and keyboard shortcut for fullscreen video
@@ -1218,6 +1220,7 @@ document.addEventListener('keydown', (event) => {
   }
 });
 ```
+
 </details>
 
 Youtube CPU Tamer:  
@@ -1227,6 +1230,7 @@ Youtube CPU Tamer:
 <summary>
 Archive (2025.02.24.0)
 </summary>
+
 ```js
 // ==UserScript==
 // @name                YouTube CPU Tamer by AnimationFrame
@@ -1544,12 +1548,15 @@ SOFTWARE.
 })(null);
 ```
 
+</details>
+
 Youtube Shorts to Videos:  
 [Greasyfork](https://greasyfork.org/en/scripts/479883-youtube-shorts-to-traditional-video)  
 <details>
 <summary>
 Archive (1.13)
 </summary>
+
 ```js
 // ==UserScript==
 // @name         Youtube Shorts to Traditional Video
@@ -1580,14 +1587,16 @@ Archive (1.13)
     });
 })();
 ```
+
 </details>
 
-Show Password onMouseOver:
-[Greasyfork](https://greasyfork.org/en/scripts/32-show-password-onmouseover)
+Show Password onMouseOver:  
+[Greasyfork](https://greasyfork.org/en/scripts/32-show-password-onmouseover)  
 <details>
 <summary>
 Archive (1.0)
 </summary>
+
 ```js
 // ==UserScript==
 // @name          Show Password onMouseOver
@@ -1614,13 +1623,14 @@ window.setTimeout(function() {
   }
 }, 1000)
 ```
+
 </details>
 
-osu! Expert+:
-[Github](https://github.com/inix1257/osu_expertplus)
+osu! Expert+:  
+[Github](https://github.com/inix1257/osu_expertplus)  
 
-(osu!) Medals:
-[Greasyfork](https://greasyfork.org/en/scripts/577191-medals)
+(osu!) Medals:  
+[Greasyfork](https://greasyfork.org/en/scripts/577191-medals)  
 <details>
 <summary>
 Archive (1.0.4)
@@ -1799,14 +1809,16 @@ Archive (1.0.4)
     onVisit();
 })();
 ```
+
 </details>
 
 Instagram Default Volume:  
-[Greasyfork](https://greasyfork.org/en/scripts/487108-instagram-default-volume-with-volume-booster)
+[Greasyfork](https://greasyfork.org/en/scripts/487108-instagram-default-volume-with-volume-booster)  
 <details>
 <summary>
 Archive (2.0.8)
 </summary>
+
 ```js
 // ==UserScript==
 // @name         instagram Default Volume (with Volume Booster)
@@ -2075,6 +2087,7 @@ window.addEventListener('load', () => {
     new MutationObserver(() => setVolumeForVideos()).observe(document.body, { childList: true, subtree: true });
 });
 ```
+
 </details>
 
 Hypixel Reward Skip:  
@@ -2105,12 +2118,13 @@ window.setInterval(function(){
 ## Activadas a veces
 
 YoutubeSortByDuration:  
-[Greasyfork](https://greasyfork.org/en/scripts/530129-youtubesortbyduration)
-[Github](https://github.com/cloph-dsp/YouTubeSortByDuration)
+[Greasyfork](https://greasyfork.org/en/scripts/530129-youtubesortbyduration)  
+[Github](https://github.com/cloph-dsp/YouTubeSortByDuration)  
 <details>
 <summary>
 Archive (4.2)
 </summary>
+
 ```js
 // ==UserScript==
 // @name              YouTubeSortByDuration
@@ -2926,6 +2940,7 @@ let init = () => {
     }
 })();
 ```
+
 </details>
 
 
@@ -3126,6 +3141,7 @@ Absolute Enable Right Click:
 ```
 
 </details>
+
 # Extensiones
 
 ## Pasivas

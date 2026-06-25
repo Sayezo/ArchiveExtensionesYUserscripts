@@ -1,3 +1,5 @@
+Por hacer: Descripcion de todo, y reordenar asd
+
 # Userscripts
 
 ## Siempre Activadas
@@ -3146,11 +3148,53 @@ Absolute Enable Right Click:
 
 ## Pasivas
 
+[7TV](https://addons.mozilla.org/en-US/firefox/addon/7tv-new/)
+
+[DeepL](https://addons.mozilla.org/es-ES/firefox/addon/deepl-translate/)
+
+[Enhancer for Youtube](https://addons.mozilla.org/es-ES/firefox/addon/enhancer-for-youtube/)
+
+[Indie Wiki Buddy](https://addons.mozilla.org/es-ES/firefox/addon/indie-wiki-buddy/)
+
+[KeePassXC-Browser](https://addons.mozilla.org/en-US/firefox/addon/keepassxc-browser/)
+
+[Osekai Medal Linker](https://addons.mozilla.org/es-ES/firefox/addon/osekai-medal-linker/)
+
+[PronounDB](https://addons.mozilla.org/es-ES/firefox/addon/pronoundb/)
+
+[SponsorBlock](https://addons.mozilla.org/es-ES/firefox/addon/sponsorblock/)
+
+[Stylus](https://addons.mozilla.org/es-ES/firefox/addon/styl-us/)
+por ver asd
+
+[Twitch Channel Points Autoclicker](https://addons.mozilla.org/es-ES/firefox/addon/twitch-points-autoclicker/)
+
+[uBlock Origin](https://addons.mozilla.org/es-ES/firefox/addon/ublock-origin/)
+
+[Wayback Machine](https://addons.mozilla.org/es-ES/firefox/addon/wayback-machine_new/)
+
+[Youtube No Translation](https://addons.mozilla.org/es-ES/firefox/addon/youtube-no-translation/)
+
+[Youtube Playlist Search](https://addons.mozilla.org/es-ES/firefox/addon/youtube-playlist-search/)
+
+[YouTube Search Fixer](https://addons.mozilla.org/es-ES/firefox/addon/youtube-suite-search-fixer/)
+
 ## Activas
+
+[Toggle Resist Fingerprinting](https://addons.mozilla.org/es-ES/firefox/addon/toggle-resist-fingerprinting/)
+
+[Image Search Options](https://addons.mozilla.org/es-ES/firefox/addon/image-search-options/)
+
+[Librezam](https://addons.mozilla.org/en-US/firefox/addon/librezam/)
 
 ## Normalmente Desactivadas
 
+[Multiselect For Youtuber](https://addons.mozilla.org/es-ES/firefox/addon/multiselect-for-youtube/)
+
+[User-Agent Switcher and Manager](https://addons.mozilla.org/es-ES/firefox/addon/user-agent-string-switcher/)
+
 ### Para mi para editar esto xd:
-git add .
-git commit -m "udate"
+
+git add .  
+git commit -m "udate"  
 git push

@@ -3,16 +3,16 @@
 ## Siempre Activadas
 
 Para instalar Userscripts:  
-[ViolentMonkey](https://addons.mozilla.org/en-US/firefox/addon/violentmonkey/)  
+[ViolentMonkey](https://addons.mozilla.org/en-US/firefox/addon/violentmonkey/)<br><br>
 
 Pagetual:  
 [Website](https://pagetual.hoothin.com/)  
 [Greasyfork](https://greasyfork.org/en/scripts/438684-pagetual)  
-[Github](https://github.com/hoothin/UserScripts)  
+[Github](https://github.com/hoothin/UserScripts)<br><br>
 
 4chan X:  
 [Greasyfork](https://greasyfork.org/es/scripts/7750-4chan-x)  
-[Github](https://github.com/ccd0/4chan-x/)  
+[Github](https://github.com/ccd0/4chan-x/)<br><br>
 
 TwitchAdSolutions:  
 [Github](https://github.com/pixeltris/TwitchAdSolutions)  
@@ -1143,7 +1143,7 @@ Archive (37.0.0)
 })();
 ```
 
-</details>
+</details><br><br>
 
 Instagram Auto Unmute:  
 [Greasyfork](https://greasyfork.org/en/scripts/486309-auto-unmute-instagram-stories-and-keyboard-shortcut-for-fullscreen-video)  

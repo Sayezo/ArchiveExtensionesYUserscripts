@@ -2930,9 +2930,10 @@ let init = () => {
 
 
 Absolute Enable Right Click:  
-[Greasyfork](https://greasyfork.org/en/scripts/23772-absolute-enable-right-click-copy)
+[Greasyfork](https://greasyfork.org/en/scripts/23772-absolute-enable-right-click-copy)  
 <details>
 <summary>Archive (1.8.9)</summary>
+
 ```js
 // ==UserScript==
 // @name          Absolute Enable Right Click & Copy
@@ -3123,6 +3124,7 @@ Absolute Enable Right Click:
 
 })();
 ```
+
 </details>
 # Extensiones
 

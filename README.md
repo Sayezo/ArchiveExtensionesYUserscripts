@@ -1146,7 +1146,7 @@ Archive (37.0.0)
 </details><br>
 
 Instagram Auto Unmute:  
-[Greasyfork](https://greasyfork.org/en/scripts/486309-auto-unmute-instagram-stories-and-keyboard-shortcut-for-fullscreen-video)  
+[Greasyfork](https://greasyfork.org/en/scripts/486309-auto-unmute-instagram-stories-and-keyboard-shortcut-for-fullscreen-video)
 <details>
 <summary>
 Archive (1.3.0)
@@ -1221,11 +1221,11 @@ document.addEventListener('keydown', (event) => {
 });
 ```
 
-</details>
+</details><br>
 
 Youtube CPU Tamer:  
-[Greasyfork](https://greasyfork.org/en/scripts/431573-youtube-cpu-tamer-by-animationframe)  
-[Github](https://github.com/cyfung1031/userscript-supports)  
+[Greasyfork](https://greasyfork.org/en/scripts/431573-youtube-cpu-tamer-by-animationframe)
+[Github](https://github.com/cyfung1031/userscript-supports)
 <details>
 <summary>
 Archive (2025.02.24.0)
@@ -1548,10 +1548,10 @@ SOFTWARE.
 })(null);
 ```
 
-</details>
+</details><br>
 
 Youtube Shorts to Videos:  
-[Greasyfork](https://greasyfork.org/en/scripts/479883-youtube-shorts-to-traditional-video)  
+[Greasyfork](https://greasyfork.org/en/scripts/479883-youtube-shorts-to-traditional-video)
 <details>
 <summary>
 Archive (1.13)
@@ -1588,10 +1588,10 @@ Archive (1.13)
 })();
 ```
 
-</details>
+</details><br>
 
 Show Password onMouseOver:  
-[Greasyfork](https://greasyfork.org/en/scripts/32-show-password-onmouseover)  
+[Greasyfork](https://greasyfork.org/en/scripts/32-show-password-onmouseover)
 <details>
 <summary>
 Archive (1.0)
@@ -1624,13 +1624,13 @@ window.setTimeout(function() {
 }, 1000)
 ```
 
-</details>
+</details><br>
 
 osu! Expert+:  
-[Github](https://github.com/inix1257/osu_expertplus)  
+[Github](https://github.com/inix1257/osu_expertplus)<br><br>
 
 (osu!) Medals:  
-[Greasyfork](https://greasyfork.org/en/scripts/577191-medals)  
+[Greasyfork](https://greasyfork.org/en/scripts/577191-medals)
 <details>
 <summary>
 Archive (1.0.4)
@@ -1810,10 +1810,10 @@ Archive (1.0.4)
 })();
 ```
 
-</details>
+</details><br>
 
 Instagram Default Volume:  
-[Greasyfork](https://greasyfork.org/en/scripts/487108-instagram-default-volume-with-volume-booster)  
+[Greasyfork](https://greasyfork.org/en/scripts/487108-instagram-default-volume-with-volume-booster)
 <details>
 <summary>
 Archive (2.0.8)
@@ -2088,7 +2088,7 @@ window.addEventListener('load', () => {
 });
 ```
 
-</details>
+</details><br>
 
 Hypixel Reward Skip:  
 <details>
@@ -2113,13 +2113,13 @@ window.setInterval(function(){
 }, 100);
 ```
 
-</details>
+</details><br>
 
 ## Activadas a veces
 
 YoutubeSortByDuration:  
-[Greasyfork](https://greasyfork.org/en/scripts/530129-youtubesortbyduration)  
-[Github](https://github.com/cloph-dsp/YouTubeSortByDuration)  
+[Greasyfork](https://greasyfork.org/en/scripts/530129-youtubesortbyduration)
+[Github](https://github.com/cloph-dsp/YouTubeSortByDuration)
 <details>
 <summary>
 Archive (4.2)
@@ -2941,11 +2941,11 @@ let init = () => {
 })();
 ```
 
-</details>
+</details><br>
 
 
 Absolute Enable Right Click:  
-[Greasyfork](https://greasyfork.org/en/scripts/23772-absolute-enable-right-click-copy)  
+[Greasyfork](https://greasyfork.org/en/scripts/23772-absolute-enable-right-click-copy)
 <details>
 <summary>Archive (1.8.9)</summary>
 
@@ -3140,7 +3140,7 @@ Absolute Enable Right Click:
 })();
 ```
 
-</details>
+</details><br>
 
 # Extensiones
 

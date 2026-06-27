@@ -1,5 +1,3 @@
-Por hacer: Descripcion de todo, y reordenar asd
-
 # Userscripts
 
 ## Siempre Activadas

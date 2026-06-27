@@ -1147,84 +1147,6 @@ Archive (37.0.0)
 
 </details><br>
 
-Instagram Auto Unmute:  
-[Greasyfork](https://greasyfork.org/en/scripts/486309-auto-unmute-instagram-stories-and-keyboard-shortcut-for-fullscreen-video)
-<details>
-<summary>
-Archive (1.3.0)
-</summary>
-
-```js
-// ==UserScript==
-// @name        Auto unmute Instagram stories and keyboard shortcut for fullscreen video
-// @namespace   Violentmonkey Scripts
-// @match       https://www.instagram.com/*
-// @grant       none
-// @version     1.3.0
-// @author      Ricky
-// @description Automatically unmute stories / turn story audio on with fullscreen toggle for video
-// @downloadURL https://update.greasyfork.org/scripts/486309/Auto%20unmute%20Instagram%20stories%20and%20keyboard%20shortcut%20for%20fullscreen%20video.user.js
-// @updateURL https://update.greasyfork.org/scripts/486309/Auto%20unmute%20Instagram%20stories%20and%20keyboard%20shortcut%20for%20fullscreen%20video.meta.js
-// ==/UserScript==
-
-var mainLoop = setInterval(() => {
-  try {
-    var videoElement = document.querySelector('video');
-
-    // New Instagram UI: volume slider with muted indicator
-    var volumeSlider = document.querySelector('div[aria-label="Adjust volume"][role="slider"]');
-    var mutedIcon = document.querySelector('svg[aria-label="Audio is muted"]');
-
-    // Fallback to old selector
-    var audioButton = document.querySelector('button[aria-label="Toggle audio"]');
-
-    if (videoElement && volumeSlider && mutedIcon) {
-      // New UI: click the volume slider area to unmute
-      if (!volumeSlider.getAttribute('jside_done')) {
-        volumeSlider.click();
-        volumeSlider.setAttribute('jside_done', 'true');
-      }
-    } else if (videoElement && volumeSlider && !mutedIcon) {
-      // Audio is not muted, reset the flag
-      volumeSlider.removeAttribute('jside_done');
-    } else if (videoElement && audioButton) {
-      // Old UI fallback
-      if (videoElement.muted && !audioButton.getAttribute('jside_done')) {
-        audioButton.click();
-        audioButton.setAttribute('jside_done', 'true');
-      } else if (!videoElement.muted) {
-        audioButton.removeAttribute('jside_done');
-      }
-    }
-  } catch (err) {
-    // Handle errors, or you can log them to the console for debugging
-  }
-}, 1000);
-
-// Function to toggle fullscreen on video
-function toggleVideoFullscreen() {
-  var videoElement = document.querySelector('video');
-  if (videoElement) {
-    if (!document.fullscreenElement) {
-      videoElement.requestFullscreen();
-    } else {
-      if (document.exitFullscreen) {
-        document.exitFullscreen();
-      }
-    }
-  }
-}
-
-// Event listener for key press
-document.addEventListener('keydown', (event) => {
-  if (event.key === 'f') {
-    toggleVideoFullscreen();
-  }
-});
-```
-
-</details><br>
-
 Youtube CPU Tamer:  
 [Greasyfork](https://greasyfork.org/en/scripts/431573-youtube-cpu-tamer-by-animationframe)
 [Github](https://github.com/cyfung1031/userscript-supports)
@@ -1631,6 +1553,9 @@ window.setTimeout(function() {
 osu! Expert+:  
 [Github](https://github.com/inix1257/osu_expertplus)<br><br>
 
+score-inspector:  
+[Github](https://github.com/darkchii/score-inspector-extension)<br><br>
+
 (osu!) Medals:  
 [Greasyfork](https://greasyfork.org/en/scripts/577191-medals)
 <details>
@@ -1810,6 +1735,84 @@ Archive (1.0.4)
     document.addEventListener("turbo:visit", onVisit);
     onVisit();
 })();
+```
+
+</details><br>
+
+Instagram Auto Unmute:  
+[Greasyfork](https://greasyfork.org/en/scripts/486309-auto-unmute-instagram-stories-and-keyboard-shortcut-for-fullscreen-video)
+<details>
+<summary>
+Archive (1.3.0)
+</summary>
+
+```js
+// ==UserScript==
+// @name        Auto unmute Instagram stories and keyboard shortcut for fullscreen video
+// @namespace   Violentmonkey Scripts
+// @match       https://www.instagram.com/*
+// @grant       none
+// @version     1.3.0
+// @author      Ricky
+// @description Automatically unmute stories / turn story audio on with fullscreen toggle for video
+// @downloadURL https://update.greasyfork.org/scripts/486309/Auto%20unmute%20Instagram%20stories%20and%20keyboard%20shortcut%20for%20fullscreen%20video.user.js
+// @updateURL https://update.greasyfork.org/scripts/486309/Auto%20unmute%20Instagram%20stories%20and%20keyboard%20shortcut%20for%20fullscreen%20video.meta.js
+// ==/UserScript==
+
+var mainLoop = setInterval(() => {
+  try {
+    var videoElement = document.querySelector('video');
+
+    // New Instagram UI: volume slider with muted indicator
+    var volumeSlider = document.querySelector('div[aria-label="Adjust volume"][role="slider"]');
+    var mutedIcon = document.querySelector('svg[aria-label="Audio is muted"]');
+
+    // Fallback to old selector
+    var audioButton = document.querySelector('button[aria-label="Toggle audio"]');
+
+    if (videoElement && volumeSlider && mutedIcon) {
+      // New UI: click the volume slider area to unmute
+      if (!volumeSlider.getAttribute('jside_done')) {
+        volumeSlider.click();
+        volumeSlider.setAttribute('jside_done', 'true');
+      }
+    } else if (videoElement && volumeSlider && !mutedIcon) {
+      // Audio is not muted, reset the flag
+      volumeSlider.removeAttribute('jside_done');
+    } else if (videoElement && audioButton) {
+      // Old UI fallback
+      if (videoElement.muted && !audioButton.getAttribute('jside_done')) {
+        audioButton.click();
+        audioButton.setAttribute('jside_done', 'true');
+      } else if (!videoElement.muted) {
+        audioButton.removeAttribute('jside_done');
+      }
+    }
+  } catch (err) {
+    // Handle errors, or you can log them to the console for debugging
+  }
+}, 1000);
+
+// Function to toggle fullscreen on video
+function toggleVideoFullscreen() {
+  var videoElement = document.querySelector('video');
+  if (videoElement) {
+    if (!document.fullscreenElement) {
+      videoElement.requestFullscreen();
+    } else {
+      if (document.exitFullscreen) {
+        document.exitFullscreen();
+      }
+    }
+  }
+}
+
+// Event listener for key press
+document.addEventListener('keydown', (event) => {
+  if (event.key === 'f') {
+    toggleVideoFullscreen();
+  }
+});
 ```
 
 </details><br>
@@ -3144,6 +3147,15 @@ Absolute Enable Right Click:
 
 </details><br>
 
+# Userstyles
+
+Para instalar Userstyles:  
+[Stylus](https://addons.mozilla.org/es-ES/firefox/addon/styl-us/)<br><br>
+
+osu! color changer:  
+[userstyles.world](https://userstyles.world/style/1767/default-slug)
+(Por defecto + Activar: Add colors for each gamemode icon)
+
 # Extensiones
 
 ## Pasivas
@@ -3163,9 +3175,6 @@ Absolute Enable Right Click:
 [PronounDB](https://addons.mozilla.org/es-ES/firefox/addon/pronoundb/)
 
 [SponsorBlock](https://addons.mozilla.org/es-ES/firefox/addon/sponsorblock/)
-
-[Stylus](https://addons.mozilla.org/es-ES/firefox/addon/styl-us/)
-por ver asd
 
 [Twitch Channel Points Autoclicker](https://addons.mozilla.org/es-ES/firefox/addon/twitch-points-autoclicker/)
 
@@ -3196,5 +3205,5 @@ por ver asd
 ### Para mi para editar esto xd:
 
 git add .  
-git commit -m "udate"  
+git commit -m "update"  
 git push

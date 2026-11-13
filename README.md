@@ -2839,8 +2839,6 @@ osu! color changer:
 
 [SponsorBlock](https://addons.mozilla.org/es-ES/firefox/addon/sponsorblock/)
 
-[Twitch Channel Points Autoclicker](https://addons.mozilla.org/es-ES/firefox/addon/twitch-points-autoclicker/)
-
 [uBlock Origin](https://addons.mozilla.org/es-ES/firefox/addon/ublock-origin/)
 
 [Wayback Machine](https://addons.mozilla.org/es-ES/firefox/addon/wayback-machine_new/)

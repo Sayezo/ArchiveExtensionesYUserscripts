@@ -2611,6 +2611,72 @@ let init = () => {
 
 </details><br>
 
+Auto Unsave Reddit Posts (Fixed):
+<details>
+<summary>Archive 2.0</summary>
+
+```js
+// ==UserScript==
+// @name Auto Unsave Reddit Posts (Fixed)
+// @namespace https://github.com/Zakaboy26
+// @version 2.0
+// @description Automatically unsaves all posts on old.reddit.com using reliable Vanilla JS
+// @author Zakaboy26
+// @match https://old.reddit.com/user/*/saved*
+// @grant none
+// ==/UserScript==
+
+(function() {
+'use strict';
+
+// Helper to pause execution
+const wait = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+// DELAYS (In milliseconds):
+// Reddit is incredibly strict right now. Keeping this between 3 to 6 seconds
+// per post mimics human behavior and prevents the 429 "Too Many Requests" error.
+const DELAY_MIN = 2500;
+const DELAY_MAX = 5000;
+
+async function startUnsaving() {
+// Find all anchor links on the page
+const links = Array.from(document.querySelectorAll('a'));
+
+// Filter specifically for the "unsave" buttons
+const unsaveLinks = links.filter(link => link.textContent.trim().toLowerCase() === 'unsave');
+
+if (unsaveLinks.length === 0) {
+console.log("No 'unsave' links found on this page. You might be done, or the 429 block is active.");
+return;
+}
+
+console.log(`Found ${unsaveLinks.length} items to unsave on this page. Beginning process...`);
+
+for (const link of unsaveLinks) {
+// Click the unsave button
+link.click();
+console.log("Unsaved an item.");
+
+// Generate a random human-like delay
+const randomDelay = Math.floor(Math.random() * (DELAY_MAX - DELAY_MIN + 1)) + DELAY_MIN;
+await wait(randomDelay);
+}
+
+// Once the page is cleared, wait 5 seconds and reload to bring the next batch forward
+console.log("Finished current page. Reloading in 5 seconds for the next batch...");
+await wait(5000);
+location.reload();
+}
+
+// Run the script only after the window has completely loaded
+window.addEventListener('load', () => {
+// 2-second buffer to let Reddit's built-in scripts stabilize
+setTimeout(startUnsaving, 2000);
+});
+})();
+```
+</details><br>
+
 
 Absolute Enable Right Click:  
 [Greasyfork](https://greasyfork.org/en/scripts/23772-absolute-enable-right-click-copy)

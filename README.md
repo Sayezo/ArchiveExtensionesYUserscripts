@@ -2861,6 +2861,10 @@ osu! color changer:
 
 [User-Agent Switcher and Manager](https://addons.mozilla.org/es-ES/firefox/addon/user-agent-string-switcher/)
 
+### userChrome.css
+
+[Lain Theme](https://github.com/ttodoshi/firefox-lain-theme)
+
 ### Para mi para editar esto xd:
 
 git add .  

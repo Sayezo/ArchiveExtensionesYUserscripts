@@ -2825,11 +2825,15 @@ osu! color changer:
 
 [7TV](https://addons.mozilla.org/en-US/firefox/addon/7tv-new/)
 
+[ClearURLs](https://addons.mozilla.org/es-ES/firefox/addon/clearurls/)
+
 [DeepL](https://addons.mozilla.org/es-ES/firefox/addon/deepl-translate/)
 
 [Enhancer for Youtube](https://addons.mozilla.org/es-ES/firefox/addon/enhancer-for-youtube/)
 
 [Indie Wiki Buddy](https://addons.mozilla.org/es-ES/firefox/addon/indie-wiki-buddy/)
+
+[osu! PP & QoL](https://addons.mozilla.org/en-US/firefox/addon/osu-pp-calculator-sandro/)
 
 [PronounDB](https://addons.mozilla.org/es-ES/firefox/addon/pronoundb/)
 
@@ -2845,17 +2849,23 @@ osu! color changer:
 
 [Youtube Playlist Search](https://addons.mozilla.org/es-ES/firefox/addon/youtube-playlist-search/)
 
-[YouTube Search Fixer](https://addons.mozilla.org/es-ES/firefox/addon/youtube-suite-search-fixer/)
-
 ## Activas
-
-[Toggle Resist Fingerprinting](https://addons.mozilla.org/es-ES/firefox/addon/toggle-resist-fingerprinting/)
 
 [Image Search Options](https://addons.mozilla.org/es-ES/firefox/addon/image-search-options/)
 
 [Librezam](https://addons.mozilla.org/en-US/firefox/addon/librezam/)
 
+[Ruffle](https://addons.mozilla.org/en-US/firefox/addon/ruffle_rs/)
+
+[Toggle Resist Fingerprinting](https://addons.mozilla.org/es-ES/firefox/addon/toggle-resist-fingerprinting/)
+
 ## Normalmente Desactivadas
+
+[Bookmarks clean up](https://addons.mozilla.org/es-ES/firefox/addon/bookmarks-clean-up/)
+
+[cookies.txt](https://addons.mozilla.org/es-ES/firefox/addon/cookies-txt/)
+
+[DeArrow](https://addons.mozilla.org/es-ES/firefox/addon/dearrow/)
 
 [Multiselect For Youtuber](https://addons.mozilla.org/es-ES/firefox/addon/multiselect-for-youtube/)
 

@@ -5,11 +5,6 @@
 Para instalar Userscripts:  
 [ViolentMonkey](https://addons.mozilla.org/en-US/firefox/addon/violentmonkey/)<br><br>
 
-Pagetual:  
-[Website](https://pagetual.hoothin.com/)
-[Greasyfork](https://greasyfork.org/en/scripts/438684-pagetual)
-[Github](https://github.com/hoothin/UserScripts)<br><br>
-
 4chan X:  
 [Greasyfork](https://greasyfork.org/es/scripts/7750-4chan-x)
 [Github](https://github.com/ccd0/4chan-x/)<br><br>

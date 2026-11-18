@@ -5,6 +5,24 @@
 Para instalar Userscripts:  
 [ViolentMonkey](https://addons.mozilla.org/en-US/firefox/addon/violentmonkey/)<br><br>
 
+X native image context menu:
+<details>
+<summary>
+Archive (1.0)
+</summary>summary
+// ==UserScript==
+// @name         X native image context menu
+// @match        https://x.com/*
+// @run-at       document-start
+// ==/UserScript==
+
+document.addEventListener('contextmenu', (e) => {
+    if (e.target.closest('img')) {
+        e.stopImmediatePropagation();
+    }
+}, true);
+</details>
+
 4chan X:  
 [Greasyfork](https://greasyfork.org/es/scripts/7750-4chan-x)
 [Github](https://github.com/ccd0/4chan-x/)<br><br>

@@ -9,7 +9,9 @@ X native image context menu:
 <details>
 <summary>
 Archive (1.0)
-</summary>summary
+</summary>
+
+```js
 // ==UserScript==
 // @name         X native image context menu
 // @match        https://x.com/*
@@ -22,7 +24,7 @@ document.addEventListener('contextmenu', (e) => {
     }
 }, true);
 </details>
-
+```
 4chan X:  
 [Greasyfork](https://greasyfork.org/es/scripts/7750-4chan-x)
 [Github](https://github.com/ccd0/4chan-x/)<br><br>

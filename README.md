@@ -23,8 +23,8 @@ document.addEventListener('contextmenu', (e) => {
         e.stopImmediatePropagation();
     }
 }, true);
-</details>
 ```
+</details>
 4chan X:  
 [Greasyfork](https://greasyfork.org/es/scripts/7750-4chan-x)
 [Github](https://github.com/ccd0/4chan-x/)<br><br>
